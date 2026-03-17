@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aseke-compass": {
+      "command": "/example-path-to-nvm/.nvm/versions/node/v22.19.0/bin/node",
+      "args": ["/your-path-to/aseke-compass-mcp/dist/index.js"]
+    }
+  }
+}
