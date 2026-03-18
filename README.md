@@ -37,6 +37,8 @@ Provides structured analytical patterns for understanding human behavior and int
 
 ## Setup
 
+Clone or fork the repository.
+
 ```bash
 cd ~/aseke-compass-mcp
 npm install
@@ -51,7 +53,7 @@ Add to `~/.config/Claude/claude_desktop_config.json`:
 {
   "mcpServers": {
     "aseke-compass": {
-      "command": "/home/<your_username>/.nvm/versions/node/v22.21.0/bin/node",
+      "command": "/home/<your_username>/.nvm/versions/node/<your_node_version>/bin/node",
       "args": ["/your/path/to/aseke-compass-mcp/dist/index.js"]
     }
   }
