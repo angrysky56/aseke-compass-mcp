@@ -38,7 +38,7 @@ Provides structured analytical patterns for understanding human behavior and int
 ## Setup
 
 ```bash
-cd ~/Repositories/ai_workspace/aseke-compass-mcp
+cd ~/aseke-compass-mcp
 npm install
 npx tsc
 ```
@@ -51,10 +51,8 @@ Add to `~/.config/Claude/claude_desktop_config.json`:
 {
   "mcpServers": {
     "aseke-compass": {
-      "command": "/home/ty/.nvm/versions/node/v22.21.0/bin/node",
-      "args": [
-        "/home/ty/Repositories/ai_workspace/aseke-compass-mcp/dist/index.js"
-      ]
+      "command": "/home/<your_username>/.nvm/versions/node/v22.21.0/bin/node",
+      "args": ["/your/path/to/aseke-compass-mcp/dist/index.js"]
     }
   }
 }
