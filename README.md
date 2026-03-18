@@ -66,7 +66,7 @@ Restart Claude Desktop after config changes.
 
 **Empirical foundations**: Panksepp (1998), Duckitt & Sibley (2009), Jost & Banaji (1994), Milgram (1963), Kahneman (2011), Sweller (1988), Kahan (2017), Russell (1980), and others.
 
-**Framework contributions**: ASEKE (Hall) — IS capture of primary emotional system output via CE efficiency. EFHF (Hall) — lumpability, coherence windows. Boundary Conditions (Hall, 2026) — ethical behavior as structurally weaker boundary condition.
+**Framework contributions**: ASEKE (Hall) — IS capture of primary emotional system output via CE efficiency. [EFHF (Hall)](https://github.com/angrysky56/Emergent-Functional-Hierarchies-Framework) — lumpability, coherence windows. Boundary Conditions (Hall, 2026) — ethical behavior as structurally weaker boundary condition.
 
 The seven primary emotional systems are established cross-species neuroscience. The pattern library synthesizes established findings into original analytical tools. See the companion SKILL.md for full analysis.
 
