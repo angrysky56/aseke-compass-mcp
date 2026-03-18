@@ -8,26 +8,28 @@ Provides structured analytical patterns for understanding human behavior and int
 
 ## Tools
 
-| Tool | Purpose |
-|------|---------|
-| `list_all` | Catalog all 7 primary systems and 12 named patterns |
-| `get_system_info` | Detailed info on a Panksepp system (neural basis, IS vulnerability, political bridge) |
-| `get_pattern_info` | Detailed info on a named pattern (substrate, blind spots, leverage points) |
-| `analyze_behavior` | Structured 5-step ASEKE analysis of any behavioral situation |
-| `match_patterns` | Signal-based pattern matching against the 12-pattern library |
-| `bridge_to_political` | Map system activation to DPM (RWA/SDO) with timescale caveats |
+| Tool                  | Purpose                                                                               |
+| --------------------- | ------------------------------------------------------------------------------------- |
+| `list_all`            | Catalog all 7 primary systems and 12 named patterns                                   |
+| `get_system_info`     | Detailed info on a Panksepp system (neural basis, IS vulnerability, political bridge) |
+| `get_pattern_info`    | Detailed info on a named pattern (substrate, blind spots, leverage points)            |
+| `analyze_behavior`    | Structured 5-step ASEKE analysis of any behavioral situation                          |
+| `match_patterns`      | Signal-based pattern matching against the 12-pattern library                          |
+| `bridge_to_political` | Map system activation to DPM (RWA/SDO)\* with timescale caveats                       |
+
+\*This tool uses the Dual Process Model (DPM) to map biological emotional systems to political psychology dimensions—specifically Right-Wing Authoritarianism (RWA) and Social Dominance Orientation (SDO).
 
 ## Biological Vocabulary: Panksepp's Seven Systems
 
-| System | Role | IS Vulnerability |
-|--------|------|-----------------|
-| **SEEKING** | Curiosity, exploration, goal-pursuit | IS acquisition gateway — hooks curiosity first |
-| **RAGE** | Obstacle removal, boundary defense | Requires a target — demagogic IS provides one |
-| **FEAR** | Threat detection, escape | Primary authoritarian IS substrate (→ RWA) |
-| **PANIC/GRIEF** | Separation distress, bonding need | Desperate belonging-seeking — cults, movements recruit here |
-| **CARE** | Nurturing, protection | Circle width determines SDO axis position |
-| **PLAY** | Social joy, boundary-testing | Resistant to IS but weaponizable (trolling) |
-| **LUST** | Reproductive motivation | LUST+FEAR = purity politics |
+| System          | Role                                 | IS Vulnerability                                            |
+| --------------- | ------------------------------------ | ----------------------------------------------------------- |
+| **SEEKING**     | Curiosity, exploration, goal-pursuit | IS acquisition gateway — hooks curiosity first              |
+| **RAGE**        | Obstacle removal, boundary defense   | Requires a target — demagogic IS provides one               |
+| **FEAR**        | Threat detection, escape             | Primary authoritarian IS substrate (→ RWA)                  |
+| **PANIC/GRIEF** | Separation distress, bonding need    | Desperate belonging-seeking — cults, movements recruit here |
+| **CARE**        | Nurturing, protection                | Circle width determines SDO axis position                   |
+| **PLAY**        | Social joy, boundary-testing         | Resistant to IS but weaponizable (trolling)                 |
+| **LUST**        | Reproductive motivation              | LUST+FEAR = purity politics                                 |
 
 ## Pattern Library
 
@@ -50,7 +52,9 @@ Add to `~/.config/Claude/claude_desktop_config.json`:
   "mcpServers": {
     "aseke-compass": {
       "command": "/home/ty/.nvm/versions/node/v22.21.0/bin/node",
-      "args": ["/home/ty/Repositories/ai_workspace/aseke-compass-mcp/dist/index.js"]
+      "args": [
+        "/home/ty/Repositories/ai_workspace/aseke-compass-mcp/dist/index.js"
+      ]
     }
   }
 }
@@ -67,4 +71,5 @@ Restart Claude Desktop after config changes.
 The seven primary emotional systems are established cross-species neuroscience. The pattern library synthesizes established findings into original analytical tools. See the companion SKILL.md for full analysis.
 
 ## Author
+
 Tyler B. Hall — part of the ASEKE/EFHF research program.
